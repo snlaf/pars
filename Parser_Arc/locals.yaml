@@ -1,0 +1,15 @@
+db:
+  host: "localhost"
+  port: 5432 
+  user: "parseruser"
+  password: "333453016Zx."
+  name: "parserdb"
+sources:
+  - name: "Фактор-ТС"
+    type: "snort"
+    ftp: "ftp://base.factor-ts.ru"
+    path: "/2.0-3/rules-31470.tar.gz"
+  - name: "Suricata"
+    type: "suricata"
+    url: "https://rules.emergingthreats.net/open/suricata-7.0.3/emerging.rules.tar.gz"
+
