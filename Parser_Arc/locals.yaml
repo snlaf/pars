@@ -2,7 +2,7 @@ db:
   host: "localhost"
   port: 5432 
   user: "parseruser"
-  password: "333453016Zx."
+  password: " "
   name: "parserdb"
 sources:
   - name: "Фактор-ТС"
